@@ -572,14 +572,26 @@ Aashish Raikwar | Frontend Developer Portfolio
 
 
 
+          <script src="https://unpkg.com/scrollreveal"></script>
 
-
-
-</body>
-</html>
-
-
+    <script>
+    ScrollReveal().reveal(
+    '.hero-text, .about-content, .skill-box, .project-card, .service-card, .contact-container',
+    {
+        distance: '50px',
+        duration: 1000,
+        delay: 200,
+        origin: 'bottom',
+        reset: false
+    });
+    </script>
 
     <script src="js/script.js"></script>
+
+
 </body>
 </html>
+
+
+
+
